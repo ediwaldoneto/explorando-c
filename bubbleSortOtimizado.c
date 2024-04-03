@@ -23,7 +23,7 @@ void bubbleSortOtimizado(int array[], int tamanho)
 
 int main()
 {
-  int numeros[] = {5, 3, 8, 4, 2};
+  int numeros[] = {11, 5, 68, 79, 6, 2, 4, 8};
   int tamanho = sizeof(numeros) / sizeof(numeros[0]);
 
   bubbleSortOtimizado(numeros, tamanho);
